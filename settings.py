@@ -1,0 +1,20 @@
+type_colors = {
+  "normal": "\033[37m",
+  "fire": "\033[31m",
+  "water": "\033[34m",
+  "grass": "\033[32m",
+  "electric": "\033[33m",
+  "ice": "\033[94m",
+  "fighting": "\033[91m",
+  "poison": "\033[35m",
+  "ground": "\x1b[38;5;130m",
+  "flying": "\033[97mr",
+  "psychic": "\033[95m",
+  "bug": "\033[92m",
+  "rock": "\x1b[90m",
+  "ghost": "\033[96m",
+  "dragon": "\033[91m",
+  "dark": "\033[30m",
+  "steel": "\033[90m",
+  "fairy": "\033[95m"
+}
