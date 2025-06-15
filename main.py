@@ -11,10 +11,11 @@ class Main:
         response_player = requests.get(url_player)
         data_player = response_player.json()
 
-        player = Player(player_pokemon, 36, data_player)
+        player = Player(player_pokemon, 100, data_player)
         player.set_moves()
+        print(player)
         for i in player.moves:
-            print(f"{i.name} | Power: {i.power} | PP: {i.pp} | Accuracy: {i.accuracy} | Type: {i.type}")
+            print(f"\033[97m{i.name} | Power: {i.power} | PP: {i.pp} | Accuracy: {i.accuracy} | Type: {i.type}\n    {i.description}\033[0m")
 
 
 main = Main()

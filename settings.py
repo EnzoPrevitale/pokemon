@@ -8,7 +8,7 @@ type_colors = {
   "fighting": "\033[91m",
   "poison": "\033[35m",
   "ground": "\x1b[38;5;130m",
-  "flying": "\033[97mr",
+  "flying": "\033[0m",
   "psychic": "\033[95m",
   "bug": "\033[92m",
   "rock": "\x1b[90m",
